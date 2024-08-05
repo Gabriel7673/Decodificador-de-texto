@@ -1,4 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Amatic+SC:wght@400;700&family=Orbitron:wght@400..900&family=Ysabeau+SC:wght@1..1000&display=swap');
+
 
 :root{
     /*
@@ -17,7 +20,7 @@
     
     --cor-primaria: #1B1725;
     --cor-secundaria: #226CE0;
-    --cor-terciaria: #A499B3;
+    --cor-terciaria: #545454;
     --cor-quaternaria: #D0BCD5;
     
 
@@ -44,21 +47,14 @@
     --cor-quintenaria: #A0EADE;
     */
 
-    --fonte: 'Inter', sans-serif;
+    --fonte1: 'Inter', sans-serif;
+    --fonte2: 'Amatic SC', sans-serif;
+    --fonte3: 'Orbitron', sans-serif;
+    --fonte4: 'Ysabeau SC', sans-serif;
 }
-
-/*
-
-Fazer o texto do label aperecer devagar
-
-DEstacar de alguma forma quando o botão tiver sido clicado
-
-
-*/
 
 body{
     background-color: var(--cor-primaria);
-    font-family: var(--fonte);
 }
 
 .header{
@@ -73,7 +69,7 @@ body{
 }
 
 .header__h1{
-    font-family: var(--fonte);
+    font-family: var(--fonte3);
     color: var(--cor-secundaria);
 }
 
@@ -97,7 +93,7 @@ body{
     background-color: var(--cor-primaria);
     border: none;
     outline: none;
-    font-family: var(--fonte);
+    font-family: var(--fonte3);
     font-size: 2rem;
     color: var(--cor-secundaria);
     overflow: hidden;
@@ -106,14 +102,14 @@ body{
 }
 
 .main__content--input::placeholder{
-    font-family: var(--fonte);
+    font-family: var(--fonte3);
     color: var(--cor-secundaria);
 }
 
 .main__content--text{
     font-size: 0.75rem;
     color: var(--cor-terciaria);
-    font-family: var(--fonte);
+    font-family: var(--fonte1);
     display: flex;
     align-items: center;
     gap: 5px;
@@ -127,9 +123,9 @@ body{
 }
 
 .button-criptografar, .button-descriptografar, .button-copiar{
-    font-family: var(--fonte);
+    font-family: var(--fonte2);
     border-radius: 24px;
-    font-size: 1rem;
+    font-size: 2rem;
     width: 22.78vw;
     padding: 2.34vh 1.67vw;
     border-radius: 24px;
@@ -178,6 +174,7 @@ body{
     display: none;
     text-align: left;
     font-size: 2rem;
+    font-family: var(--fonte3);
     color: var(--cor-secundaria);
     width: 90.33%;
     height: 76.27%;
@@ -203,6 +200,7 @@ body{
     flex-direction: column;
     gap: 1.56vh;
     width: 75%;
+    font-family: var(--fonte4);
 }
 
 .main__message--highlight{
@@ -220,6 +218,7 @@ body{
 
 .footer{
     text-align: center;
+    font-family: var(--fonte3);
     margin-top: 9vh;
     font-size: 0.7rem;
     padding: 5px;

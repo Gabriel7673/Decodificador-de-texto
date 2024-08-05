@@ -9,9 +9,6 @@ let trocas = new Map([
     ['u', 'ufat']
 ]);
 
-
-// setTimeout()
-
 textarea.addEventListener("input", testarMensagem);
 
 function testarMensagem(e){
