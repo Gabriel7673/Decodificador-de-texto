@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge ONE</title>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <header class="header">
+        <img class="header__logo" src="./assets/top-secret_924905.png" alt="Logo Alura">
+        <h1 class="header__h1">Decodificador de Texto</h1>
+    </header>
+    <main class="main">
+        <section class="main__content">
+            <textarea class="main__content--input" rows="7" placeholder="Digite seu texto"></textarea>
+            <div>
+                <p class="main__content--text">
+                    <img src="./assets/bi_exclamation-circle-fill.svg" alt="  !">
+                    Apenas letras minúsculas e sem acento.
+                </p>
+                <div class="main__content--buttons">
+                    <input class="button-criptografar" type="button" value="Criptografar" onclick="criptografar()">
+                    <input class="button-descriptografar" type="button" value="Descriptografar" onclick="descriptografar()">
+                </div>
+            </div>
+        </section>
+
+        <section class="main__sidebar">
+            <label class="main__sidebar--label"></label>
+            <img class="main__sidebar--img" src="./assets/magnifying-glass-1976105_640.png" alt="Imagem de Espera">
+            <div class="main__sidebar--messages">
+                <p class="main__message--highlight">Nenhuma mensagem encontrada</p>
+                <p class="main__message--secondary">Digite um texto que você deseja criptografar ou descriptografar.</p>
+            </div>
+            <input class="button-copiar" type="button" value="Copiar" onclick="copiar()">
+        </section>
+    </main>
+    <footer class="footer">
+        <p>
+            Developed By Gabriel Martins Voga - 2024
+            <a href="https://www.linkedin.com/in/gabriel-martins-voga/">
+                <img class="footer__linkedin-icon" src="./assets/linkedin.png" alt="Ícone Linkedin">
+            </a>
+        </p>
+        
+    </footer>
+    <script src="./src/fuction.js"></script>
+</body>
+</html>
