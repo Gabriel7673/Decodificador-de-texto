@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Amatic+SC:wght@400;700&family=Orbitron:wght@400..900&family=Ysabeau+SC:wght@1..1000&display=swap');
 
 
@@ -237,15 +235,15 @@ body{
 @media (max-width: 768px){
     
     .main{
-        display: flex;
         flex-direction: column;
-        justify-content: space-around;
-        height: 85vh;
+        gap: 2vh;
+        margin: 0vh 4vw;
     }
 
     .main__content{
-        width: 89.58vw;
-        margin: 0vh 5.81vw;
+        width: 95%;
+        height: 40%;
+        justify-content: initial;
     }
 
     .main__content--buttons{
@@ -258,50 +256,46 @@ body{
     }
 
     .main__sidebar{
-        position: relative;
-        height: 35vh;
-        margin: 3vh 5.81vw;
+        height: 35%;
         background-color: var(--cor-quaternaria);
-        width: 92.58vw;
-        padding: 2.73vh 4.17vw;
+        width: 70%;
+        padding: 1.23vh 0.5vw;
         display: flex;
         justify-content: space-between;
     }
 
     .main__sidebar--label{
-        position: relative;
-        width: 81.25vw;
-        height: 10vh;
+        font-size: 1.5rem;
     }
 
     .main__sidebar--img{
         display: none;
     }
 
-    .button-copiar{
-        width: 81.25vw;
-    }
-
 }
 
 @media (max-width: 375px){
     
+    .header__h1{
+        font-size: 1.2rem;
+    }
+
+
     .main__content--buttons{
-        width: 100%;
+        width: 90%;
         gap: 3.13vw;
         flex-direction: column;
     }
 
     .button-criptografar, .button-descriptografar, .button-copiar{
         width: 91.47vw;
+        font-size: 1.5rem;
     }
 
     .main__sidebar{
-        position: relative;
-        height: 35vh;
-        margin: 3vh 5.81vw;
-        background-color: var(--cor-quaternaria);
-        width: 92.58vw;
+        height: 35%;
+        margin: 3vh 0vw;
+        width: 100%;
         padding: 2.73vh 4.17vw;
         display: flex;
         justify-content: space-between;
@@ -309,8 +303,8 @@ body{
 
     .main__sidebar--label{
         position: relative;
-        width: 81.25vw;
-        height: 10vh;
+        width: 95%;
+        /*height: 40%;*/
     }
 
     .main__sidebar--img{
