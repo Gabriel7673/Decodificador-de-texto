@@ -1,49 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Amatic+SC:wght@400;700&family=Orbitron:wght@400..900&family=Ysabeau+SC:wght@1..1000&display=swap');
 
 
-:root{
-    /*
-    --cor-primaria: #F3F5FC;
-    --cor-secundaria: #0A3871;
-    --cor-terciaria: #495057;
-    --cor-quaternaria: #FFFFFF;
-    */
-    /*
-    --cor-primaria: #0D1B2A;
-    --cor-secundaria: #415A77;
-    --cor-terciaria: #1B263B;
-    --cor-quaternaria: #E0E1DD;
-    */
-
-    
+:root{   
     --cor-primaria: #1B1725;
     --cor-secundaria: #226CE0;
     --cor-terciaria: #545454;
     --cor-quaternaria: #D0BCD5;
-    
-
-    /*
-    --cor-primaria: #000000;
-    --cor-secundaria: #87BBA2;
-    --cor-terciaria: #5D737E;
-    --cor-quaternaria: #F0F7EE;
-    */
-
-    /*
-    --cor-primaria: #705D56;
-    --cor-secundaria: #F0F7F4;
-    --cor-terciaria: #32292F;
-    --cor-quaternaria: #99E1D9;
-    --cor-quintenaria: #70ABAF;
-    */
-
-    /*
-    --cor-primaria: #5C6784;
-    --cor-secundaria: #157F1F;
-    --cor-terciaria: #1D263B;
-    --cor-quaternaria: #4CB963;
-    --cor-quintenaria: #A0EADE;
-    */
 
     --fonte1: 'Inter', sans-serif;
     --fonte2: 'Amatic SC', sans-serif;
@@ -257,10 +219,8 @@ body{
 
     .main__sidebar{
         height: 35%;
-        background-color: var(--cor-quaternaria);
-        width: 70%;
+        width: 9%;
         padding: 1.23vh 0.5vw;
-        display: flex;
         justify-content: space-between;
     }
 
@@ -304,7 +264,6 @@ body{
     .main__sidebar--label{
         position: relative;
         width: 95%;
-        /*height: 40%;*/
     }
 
     .main__sidebar--img{
