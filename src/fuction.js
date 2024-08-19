@@ -46,7 +46,22 @@ function liberarAreaMensagem(){
 
 }
 
+function restaurar(){
+    label.style.display = "none";
+    document.querySelector('.main__sidebar--img').style.display = "initial";
+    document.querySelector('.main__message--highlight').style.display = "initial";
+    document.querySelector('.main__message--secondary').style.display = "initial";
+    document.querySelector('.button-copiar').style.display = "none";
+    document.querySelector('.main__sidebar').style.justifyContent = "initial";
+}
+
 function transformarTexto(texto, inverso) {
+    if(texto == ''){
+        console.log(1);
+        restaurar();
+        return;
+    }
+    
     if (!eMinuscula(texto)) {
         alert('Apenas letras minúsculas e sem acento!');
         return;
