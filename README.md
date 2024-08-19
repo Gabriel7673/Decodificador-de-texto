@@ -1,6 +1,6 @@
 # Decodificador de Texto
 ## Sobre
-Este decodificador de texto é o 1º desafio proposto pela formação Oracle Next Education.
+Este decodificador de texto é o 1º desafio proposto pela formação Oracle Next Education. Ele captura um texto dado pelo usuário e é capaz tanto de criptografá-lo quanto descriptografá-lo.
 
 ## Funcionamento
 A área esquerda aguarda que o usuário digite um texto, que será criptografado pelo botão de Criptografar ou descriptografado pelo botão de Descriptografar. O resultado será exibido na área direita.
